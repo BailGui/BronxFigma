@@ -1,0 +1,39 @@
+.logo{
+    display: grid;
+    height: 100px;
+   
+}
+label{
+  display: flex;
+  justify-content: end;
+}
+ 
+.langue{
+   
+}
+.menu{
+   
+}
+ 
+#plangue{
+    display: flex;
+    justify-content: end;
+   
+}
+ 
+#pmenu{
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+#pimg{
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* main */
+ 
+ 
+ 
+/* footer */
+ 
