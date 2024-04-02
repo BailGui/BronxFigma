@@ -37,3 +37,26 @@ label{
  
 /* footer */
 
+footer{
+    display: grid;
+    background-color: black;
+    justify-content: center;
+
+}
+.pfooter {
+    display: grid;
+    align-items: center;
+    color: white;
+    font-family: monospace;
+}
+
+p {
+    display: grid;
+    justify-content: center;
+}
+
+.email{
+    display: grid;
+    justify-content: center;
+}
+
