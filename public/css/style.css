@@ -10,6 +10,11 @@ main{
     margin-right: 10%;
     margin-left: 10%;
 }
+
+#dlogo{
+    width: 60%;
+}
+
 .logo{
     display: grid;
     height: 100px;
@@ -25,7 +30,20 @@ label{
 }
 
 .menu{
+  background-color: white;
+  font-family: monospace;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 20%;
+  font-size: large;
+  padding: 1px;
+  margin-bottom: 10px;
    
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
  
 #plangue{
@@ -51,8 +69,6 @@ label{
  
 #pimg2{
     display: grid;
-    justify-content: ;
-    width: ;
 }
  
 .img{
