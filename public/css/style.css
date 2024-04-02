@@ -1,3 +1,15 @@
+/* header */
+
+header{
+    margin-top: 0;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+main{
+    margin-top: 0;
+    margin-right: 10%;
+    margin-left: 10%;
+}
 .logo{
     display: grid;
     height: 100px;
@@ -11,6 +23,7 @@ label{
 .langue{
    
 }
+
 .menu{
    
 }
@@ -26,22 +39,51 @@ label{
     justify-content: space-evenly;
 }
  
-#pimg{
-    width: auto;
-    display: flex;
-    justify-content: space-evenly;
-}
+ 
 /* main */
- 
- 
- 
-/* footer */
 
+#pimg{
+    display: grid;
+    grid-auto-rows: auto;
+    justify-content: space-between;
+    
+}
+ 
+#pimg2{
+    display: grid;
+    justify-content: ;
+    width: ;
+}
+ 
+.img{
+    width: 20%;   
+}
+
+.img2{
+    width: 15%;
+}
+ 
+ 
+#jaune{
+    display: grid;
+    justify-items: center;
+    background-color: rgba(255, 232, 28, 1);
+}
+ 
+#subscribe{
+    color: white;
+    background-color: black;
+    font-size: large;
+}
+/* footer */
+ 
+ 
 footer{
     display: grid;
     background-color: black;
     justify-content: center;
-
+    padding: 2%;
+ 
 }
 .pfooter {
     display: grid;
@@ -49,14 +91,14 @@ footer{
     color: white;
     font-family: monospace;
 }
-
+ 
 p {
     display: grid;
     justify-content: center;
+    margin: 2px;
 }
-
+ 
 .email{
     display: grid;
     justify-content: center;
 }
-
