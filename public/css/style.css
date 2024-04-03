@@ -43,11 +43,22 @@ input{
     background-color: white;
     font-size: larger;
     margin-bottom: 10%;
-    align-items: flex-end;
     width: 35px;
-    height: 35px;
-    
-      
+    height: 35px;    
+}
+
+#SearchLanguage{
+    display: grid;
+  grid-column-start: 4;
+  grid-column-end: 6;
+
+}
+
+#navlangue{
+    display: grid;
+    justify-content: right;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
 }
 
 .menu{
