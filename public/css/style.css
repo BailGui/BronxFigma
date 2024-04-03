@@ -15,6 +15,7 @@ main{
     display: grid;
     grid-column-start: 1;
     grid-column-end: 3;
+    margin-bottom: 4%;
 }
 
 .logo{
@@ -49,16 +50,18 @@ input{
 
 #SearchLanguage{
     display: grid;
-  grid-column-start: 4;
-  grid-column-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 6;
 
 }
 
 #navlangue{
     display: grid;
-    justify-content: right;
+    justify-content: end;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 30% 30% 30%;
+    grid-column-start: 5;
+    grid-column-end: 6;
 }
 
 .menu{
