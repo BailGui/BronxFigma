@@ -95,7 +95,7 @@ a{
 }
  
  
-/* main */
+/* main homepage*/
 
 #pimg{
     display: grid;
@@ -163,6 +163,16 @@ h2{
     width: 110px;
     height: 30px;
 }
+
+/* main programme*/
+
+div .programme{
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    grid-template-rows: 10% 10% 10%;
+}
+
+
 /* footer */
  
  
