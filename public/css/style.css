@@ -166,13 +166,17 @@ h2{
 
 /* main programme*/
 
-div .programme{
+#programme{
     display: grid;
-    align-content: flex-start;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
 
 }
 
-content{}
+content{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 
 
 /* footer */
