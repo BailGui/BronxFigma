@@ -180,6 +180,10 @@ footer{
     font-family: monospace;
     
 }
+
+.footerp{
+    padding-bottom: 6px;
+}
  
 p {
     display: grid;
@@ -190,4 +194,6 @@ p {
 .email{
     display: grid;
     justify-content: center;
+    color: white;
+    padding-bottom: 10%;
 }
